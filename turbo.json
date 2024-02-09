@@ -1,0 +1,44 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".nuxt/**", ".output/**", "dist/**"]
+    },
+    "build:analyze": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"],
+      "cache": false
+    },
+    "start": {
+      "outputs": []
+    },
+    "lint": {
+      "outputs": [],
+      "cache": false
+    },
+    "lint:fix": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "test": {
+      "outputs": []
+    },
+    "test:coverage": {
+      "outputs": []
+    },
+    "test:watch": {
+      "cache": false
+    },
+    "test:cypress": {
+      "cache": false
+    },
+    "test:cypress-dev": {
+      "cache": false
+    }
+  }
+}

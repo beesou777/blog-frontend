@@ -1,0 +1,33 @@
+{
+  "name": "with-vue-nuxt",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "setup": "yarn && yarn build && yarn dev",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --check \"**/*.{ts,vue,css,scss,md}\"",
+    "format:fix": "prettier --write \"**/*.{ts,vue,css,scss,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.13.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "tsconfig": "*",
+    "turbo": "latest",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "yarn@1.22.19",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "starterText": "Ein Starttemplate für Nuxt 3 mit HeadlessUI, Tailwindcss und PWA",
+  "footerCopyRight": "Urheberrecht © {year}. Alle Rechte vorbehalten.",
+  "auth": {
+    "login": {
+      "name": "Anmelden",
+      "heading": "Melden Sie sich in Ihrem Konto an",
+      "submitLabel": "Anmelden",
+      "forgotPasswordLabel": "Passwort vergessen?",
+      "rememberMeLabel": "Erinnere dich an mich",
+      "createAccount": "Sie haben noch keinen Account?",
+      "createAccountLinkLabel": "Jetzt registrieren!"
+    }
+  },
+  "form": {
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail",
+    "passwordLabel": "Passwort",
+    "subjectLabel": "Betreff",
+    "message": "Nachricht"
+  },
+  "contact": {
+    "contact": "Kontakt",
+    "contactShopMessage": "Sie haben eine Frage oder eine Anfrage? Zögern Sie nicht, uns zu kontaktieren. Füllen Sie einfach das Formular aus, und wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "contactSend": "Anfrage senden",
+    "clearAll": "Alles löschen",
+    "privacyPolicy": "Ich bestätige hiermit, dass ich die {privacyPolicy} gelesen habe."
+  },
+  "notification": {
+    "loginSuccess": "Sie haben sich erfolgreich angemeldet",
+    "loginFailed": "Die Anmeldung ist fehlgeschlagen"
+  },
+  "errorMessages": {
+    "requiredField": "Dieses Feld ist erforderlich.",
+    "email": {
+      "valid": "Dieses Feld muss eine gültige E-Mail-Adresse sein.",
+      "required": "E-Mail ist erforderlich."
+    },
+    "password": {
+      "required": "Passwort ist erforderlich.",
+      "valid": "Das Passwort muss mindestens 8 Zeichen lang sein und mindestens einen Buchstaben und eine Zahl enthalten."
+    }
+  }
+}

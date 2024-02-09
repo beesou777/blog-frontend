@@ -1,0 +1,44 @@
+{
+  "starterText": "A starter template for Nuxt 3 with HeadlessUI, Tailwindcss and PWA",
+  "footerCopyRight": "Copyright © {year}. All rights reserved.",
+  "auth": {
+    "login": {
+      "name": "Login",
+      "heading": "Log in to your account",
+      "submitLabel": "Log in",
+      "forgotPasswordLabel": "Forgotten your password?",
+      "rememberMeLabel": "Remember me",
+      "createAccount": "Don't have an account yet?",
+      "createAccountLinkLabel": "Sign up now!"
+    }
+  },
+  "form": {
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "subjectLabel": "Subject",
+    "message": "Message"
+  },
+  "contact": {
+    "contact": "Contact",
+    "contactShopMessage": "You have a question or a request? Please do not hesitate to contact us. Simply fill out the form and we will respond to your request as soon as possible.",
+    "contactSend": "Send request",
+    "clearAll": "Clear all",
+    "privacyPolicy": "I hereby confirm that I have read the {privacyPolicy}."
+  },
+  "notification": {
+    "loginSuccess": "You have been logged in successfully",
+    "loginFailed": "Login has been failed"
+  },
+  "errorMessages": {
+    "requiredField": "This filed is required.",
+    "email": {
+      "valid": "This field needs to be a valid email.",
+      "required": "Email is required."
+    },
+    "password": {
+      "required": "Password is required.",
+      "valid": "Password must be at least 8 characters long and include at least one letter and one number. "
+    }
+  }
+}

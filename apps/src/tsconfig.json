@@ -1,0 +1,15 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": ["@pinia/nuxt", "@vite-pwa/nuxt"]
+  },
+  "exclude": ["node_modules", "mocks"],
+  "typedocOptions": {
+    "entryPoints": ["composables/index.ts"],
+    "out": "docs/reference/composables",
+    "excludeExternals": true,
+    "githubPages": false,
+    "readme": "none"
+  }
+}
